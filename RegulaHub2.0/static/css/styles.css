@@ -1,0 +1,56 @@
+/* static/css/styles.css */
+
+/* Importar fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Estilo geral da sidebar */
+[data-testid="stSidebar"] {
+    background-color: #747475; /* Cinza claro */
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilo do nome do usuário */
+h2 {
+    color: #000000; /* Cinza escuro */
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos separadores */
+hr {
+    border: none;
+    border-top: 1px solid #D3D3D3; /* Cinza claro */
+    margin: 10px 0;
+}
+
+/* Estilo dos botões */
+.stButton > button {
+    background-color: #bdbdb7; /* Azul escuro */
+    color: #FFFFFF; /* Texto branco */
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover nos botões */
+.stButton > button:hover {
+    background-color: #007BFF; /* Azul claro */
+    color: #FFFFFF;
+}
+
+/* Estilo do subheader "Órgãos Regulatórios" */
+h3 {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
