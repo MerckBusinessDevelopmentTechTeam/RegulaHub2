@@ -1,1 +1,28 @@
+[server]
+enableStaticServing = true
+
+[[theme.fontFaces]]
+family = "MerckFont"
+url = "/app/static/MerckWeb-Regular.ttf"
+style = "normal"
+weight = 400
+
+[theme]
+base = "light"
+primaryColor = "#503291"
+secondaryBackgroundColor = "#e8e8e8"
+textColor = "#000000"
+font = "verdana"
+headingFont = "MerckFont, verdana"
+borderColor = "#503291"
+baseRadius="full"
+
+[theme.sidebar]
+primaryColor = "#eb3c96"
+backgroundColor = "#503291"
+secondaryBackgroundColor = "#5f4793"
+textColor = "#ffffff"
+linkColor = "#eb3c96"
+borderColor = "#ffffff"
+showWidgetBorder = true
 
