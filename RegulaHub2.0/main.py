@@ -27,7 +27,7 @@ engine = create_engine(DATABASE_URL)
 # =========================
 # CONFIGURAÇÃO STREAMLIT
 # =========================
-st.set_page_config(page_title="Regulahub 2.0", page_icon=":pill:", layout="wide")
+st.set_page_config(page_title="Regulahub", page_icon=":pill:", layout="wide")
 
 css = """
 <style>
@@ -270,3 +270,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
